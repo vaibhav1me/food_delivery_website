@@ -1,0 +1,53 @@
+#navbar {
+  flex-direction: column;
+  /* height: 200%; */
+}
+
+#navbar::before {
+  height: 200%;
+}
+
+#navbar ul li a {
+  font-size: 15px;
+  padding: 1px 8px;
+}
+#home {
+  height: 370px;
+  padding: 3px 60px;
+  padding-top: 60px;
+}
+
+#home::before {
+  height: 500px;
+}
+#home p{
+    font-weight: lighter;
+    font-size: .9rem;
+}
+.btn {
+  font-size: .8rem;
+  padding: 3px 10px;
+}
+
+#services {
+  flex-direction: column;
+}
+/* #services-container{
+    -top: 80px;
+} */
+
+.box img{
+    width: 100px;
+    border-radius: 50%;
+}
+.box h2{
+    font-size: 1.5rem;
+}
+#clients {
+  overflow: hidden;
+}
+
+/* Utility Classes */
+.h-primary {
+  font-size: 23px;
+}
